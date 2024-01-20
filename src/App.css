@@ -5,6 +5,8 @@
   text-align: center;
 }
 
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +41,27 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.action-button {
+  margin-right: 10px;
+  background-color: #4caf50;
+  color: rgb(14, 14, 14);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #a3c723;
+  color: rgb(20, 20, 20);
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

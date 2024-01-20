@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  text-align: center;
 }
 
 a {
@@ -21,6 +22,10 @@ a {
 }
 a:hover {
   color: #535bf2;
+}
+
+th, td {
+  padding: 30px; 
 }
 
 body {
@@ -46,9 +51,11 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  justify-content: space-between;
+  margin: 10px;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #030303;
 }
 button:focus,
 button:focus-visible {
